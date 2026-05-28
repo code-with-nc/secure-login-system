@@ -1,11 +1,11 @@
 ````md
-# Secure University Login & Session Monitoring System
+## Secure University Login & Session Monitoring System
 
 A Python Flask-based secure login simulator for a university student portal.
 
 ---
 
-# Features
+## Features
 
 - Username format validation
 - Password complexity validation
@@ -22,7 +22,7 @@ A Python Flask-based secure login simulator for a university student portal.
 
 ---
 
-# Run on Kali Linux
+## Run on Kali Linux
 
 ```bash
 sudo apt update
@@ -50,7 +50,7 @@ http://127.0.0.1:5000
 
 ---
 
-# Run Using Docker
+## Run Using Docker
 
 ```bash
 sudo apt install docker.io docker-compose -y
@@ -64,7 +64,7 @@ docker compose up --build
 
 ---
 
-# Stop Docker Container
+## Stop Docker Container
 
 ```bash
 docker compose down
@@ -72,7 +72,7 @@ docker compose down
 
 ---
 
-# GitHub Push Commands
+## GitHub Push Commands
 
 ```bash
 git init
@@ -90,19 +90,19 @@ git push -u origin main
 
 ---
 
-# Architecture Diagram
+## Architecture Diagram
 
 ![Architecture Diagram](images/architecture.png)
 
 ---
 
-# Architecture Description
+## Architecture Description
 
 The system follows a client-server architecture where users interact with a Flask-based web interface. The backend validates credentials, hashes passwords using SHA-256, authenticates users, tracks failed login attempts, manages secure sessions, blocks suspicious accounts, stores activity logs in external files, and generates suspicious activity visualization reports using Matplotlib.
 
 ---
 
-# Project Structure
+## Project Structure
 
 ```text
 secure-login-system/
@@ -130,13 +130,13 @@ secure-login-system/
 
 ---
 
-# Flowchart
+## Flowchart
 
 ![Flowchart](images/flowchart.png)
 
 ---
 
-# Security Observations
+## Security Observations
 
 * Passwords are stored in hashed form using SHA-256 instead of plain text.
 * Username validation allows only university email format.
@@ -151,7 +151,7 @@ secure-login-system/
 
 ---
 
-# Security Features
+## Security Features
 
 * Secure password hashing
 * Brute-force attack prevention
@@ -162,7 +162,7 @@ secure-login-system/
 
 ---
 
-# Future Enhancements
+## Future Enhancements
 
 * Database integration
 * bcrypt/Argon2 hashing
