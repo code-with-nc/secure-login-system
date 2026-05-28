@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  secure-login-system:
+    build: .
+    container_name: secure-login-system
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./logs:/app/logs
+      - ./static:/app/static

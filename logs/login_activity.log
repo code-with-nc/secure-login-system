@@ -1,0 +1,10 @@
+2026-05-28 16:54:40 | nc@university.edu | USER_REGISTERED
+2026-05-28 16:54:53 | nc@university.edu | LOGIN_SUCCESS
+2026-05-28 16:54:53 | nc@university.edu | RESOURCE_ACCESSED
+2026-05-28 16:55:00 | nc@university.edu | LOGOUT
+2026-05-28 16:55:07 | nc@university.edu | LOGIN_FAILED
+2026-05-28 16:55:13 | nc@university.edu | LOGIN_FAILED
+2026-05-28 16:55:18 | nc@university.edu | LOGIN_FAILED
+2026-05-28 16:55:18 | nc@university.edu | ACCOUNT_BLOCKED
+2026-05-28 16:55:42 | hellokitty@university.edu | USER_REGISTERED
+2026-05-28 16:56:06 | hellokitty@university.edu | LOGIN_FAILED
