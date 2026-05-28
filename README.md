@@ -1,8 +1,11 @@
 ## Secure University Login & Session Monitoring System
-
+```text
 A Python Flask-based secure login simulator for a university student portal.
+```
+
 ---
 ## Features
+```text
 
 - Username format validation
 - Password complexity validation
@@ -17,6 +20,7 @@ A Python Flask-based secure login simulator for a university student portal.
 - Visualization using Matplotlib
 - Docker and Docker Compose support
 
+```
 ---
 
 ## Run on Kali Linux
